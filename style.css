@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.tabs{
+    box-shadow: 1px 1px 1px 2px gray;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 25rem;
+    height: 4rem;
+    overflow-x: scroll;
+
+}
+
+
+.tabs::-webkit-scrollbar{
+    display: none;
+
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem;
+    width: 10rem;
+  
+}
+.tab:hover{
+    background-color: #eef2ff;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab:focus{
+
+    background-color: #c7d2fe;
+    border-bottom:4px solid ;
+    color:#312e81
+    ; 
+}
+
+
